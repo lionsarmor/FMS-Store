@@ -168,7 +168,7 @@
                                         <input type="text" class="form-control form-control2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" name="Quantity" required />
                                     </div>
                                 </div>
-                               
+
                                 <label for="exampleFormControlTextarea1">Item Details and Instructions</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Details and instructions"></textarea>
                                 <div class="modal-footer">
@@ -220,7 +220,14 @@
                                         <select v-model="Cups_Request_option" style="background-color: black;" class="custom-select form-control form-control2" id="inputGroupSelect01" name="items">
                                             <option v-for="option in Cups_options" :key="option.slug" :value="option.slug">{{ option.name }}</option>
                                         </select>
-                                        {{ Request_option }}
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <label class="input-group-text" for="inputGroupSelect01">STYLE &nbsp; </label>
+                                        </div>
+                                        <select v-model="Cups_Request_option" style="background-color: black;" class="custom-select form-control form-control2" id="inputGroupSelect01" name="style">
+                                            <option v-for="option in Cups_style_options" :key="option.slug" :value="option.slug">{{ option.name }}</option>
+                                        </select>
                                     </div>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
@@ -350,7 +357,7 @@
                             <span class="corner-border-bottom"></span>
                         </div>
                     </div>
-                <!-- ********************************************************** -->
+                    <!-- ********************************************************** -->
                     <div style="padding-left: 2vh; padding-right: 2vh;">
                         <!-- <router-link style="text-decoration: none;" to="/cart">
                             <button class="btn btn-lg btn-block btn-success"><i class="fa fa-fw fa-coins"></i> Go to Checkout</button>
@@ -411,7 +418,7 @@
                         slug: "MD  - Polyester",
                         name: "MD - Polyester",
                     },
-                                        {
+                    {
                         slug: "LG - Polyester",
                         name: "LG - Polyester",
                     },
@@ -430,6 +437,24 @@
                     {
                         slug: "Black - 11OZ - Heat Changing",
                         name: "Black - 11OZ - Heat Changing",
+                    },
+                ],
+                Cups_style_options: [
+                    {
+                        slug: "#00 - Military",
+                        name: "#00 - Military",
+                    },
+                    {
+                        slug: "#01 - Stark",
+                        name: "#01 - Stark",
+                    },
+                    {
+                        slug: "#02 - Collyn",
+                        name: "#02 - Collyn",
+                    },
+                    {
+                        slug: "#03 - Celeste",
+                        name: "#03 - Celeste",
                     },
                 ],
             };
