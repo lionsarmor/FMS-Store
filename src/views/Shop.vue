@@ -247,6 +247,8 @@
             </span>
             <hr />
             <!-- *************** ITEM BUTTONS *********************** -->
+
+            <!-- *******************T-SHIRT POWER PUFF GIRLS*************************************** -->
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col mb-3">
@@ -256,7 +258,7 @@
                             <span class="corner-border-top"></span>
                             <img src="@/assets/media/TShirt1.jpg" height="300px;" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope" />
                             <div class="card-body">
-                                <h5 class="card-title">Shirts</h5>
+                                <h5 class="card-title">Shirt #00 - POWER PUFF GIRLS</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{{ Shirt_price }}$</h6>
                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Quantity:{{ shirts }}</h6>-->
                                 <!--<a class="btn btn-primary" @click="ShowDiv(), setShirtCount(shirts + 1)"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>-->
@@ -265,6 +267,7 @@
                             <span class="corner-border-bottom"></span>
                         </div>
                     </div>
+                    <!-- ************************MUG - MILITARY #00********************************** -->
                     <div class="col mb-3">
                         <!--mb-3: Fix for card height 100% issue with margin-->
                         <div class="card h-100 mb-0">
@@ -272,7 +275,7 @@
                             <span class="corner-border-top"></span>
                             <img src="@/assets/media/mug-change.jpg" height="300px;" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope" />
                             <div class="card-body">
-                                <h5 class="card-title">Mugs</h5>
+                                <h5 class="card-title">Mugs #00 - MILITARY</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">{{ Mug_price }}$</h6>
                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Quantity:{{ mugs }}</h6> -->
                                 <!--<a class="btn btn-primary" @click="ShowDiv(), setMugCount(mugs + 1)"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>-->
@@ -281,6 +284,58 @@
                             <span class="corner-border-bottom"></span>
                         </div>
                     </div>
+                    <!-- ************************MUG - STARK #01 ********************************** -->
+                    <div class="col mb-3">
+                        <!--mb-3: Fix for card height 100% issue with margin-->
+                        <div class="card h-100 mb-0">
+                            <!--mb-0: Fix for card height 100% issue with margin-->
+                            <span class="corner-border-top"></span>
+                            <img src="@/assets/media/stark.png" height="300px;" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope" />
+                            <div class="card-body">
+                                <h5 class="card-title">Mugs #01 - STARK</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ Mug_price }}$</h6>
+                                <!-- <h6 class="card-subtitle mb-2 text-muted">Quantity:{{ mugs }}</h6> -->
+                                <!--<a class="btn btn-primary" @click="ShowDiv(), setMugCount(mugs + 1)"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>-->
+                                <button @click="nameModal = '#cupsModal'" type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-scroll"></i> Submit Order</button>
+                            </div>
+                            <span class="corner-border-bottom"></span>
+                        </div>
+                    </div>
+                    <!-- ************************MUG - COLLYN #02********************************** -->
+                    <div class="col mb-3">
+                        <!--mb-3: Fix for card height 100% issue with margin-->
+                        <div class="card h-100 mb-0">
+                            <!--mb-0: Fix for card height 100% issue with margin-->
+                            <span class="corner-border-top"></span>
+                            <img src="@/assets/media/collyn.png" height="300px;" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope" />
+                            <div class="card-body">
+                                <h5 class="card-title">Mugs #02 - COLLYN</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ Mug_price }}$</h6>
+                                <!-- <h6 class="card-subtitle mb-2 text-muted">Quantity:{{ mugs }}</h6> -->
+                                <!--<a class="btn btn-primary" @click="ShowDiv(), setMugCount(mugs + 1)"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>-->
+                                <button @click="nameModal = '#cupsModal'" type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-scroll"></i> Submit Order</button>
+                            </div>
+                            <span class="corner-border-bottom"></span>
+                        </div>
+                    </div>
+                    <!-- ************************MUG - CELESTE #03********************************** -->
+                    <div class="col mb-3">
+                        <!--mb-3: Fix for card height 100% issue with margin-->
+                        <div class="card h-100 mb-0">
+                            <!--mb-0: Fix for card height 100% issue with margin-->
+                            <span class="corner-border-top"></span>
+                            <img src="@/assets/media/celeste.png" height="300px;" class="card-img-top" alt="Carina Nebula captured by the Hubble Space Telescope" />
+                            <div class="card-body">
+                                <h5 class="card-title">Mugs #03 - CELESTE</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">{{ Mug_price }}$</h6>
+                                <!-- <h6 class="card-subtitle mb-2 text-muted">Quantity:{{ mugs }}</h6> -->
+                                <!--<a class="btn btn-primary" @click="ShowDiv(), setMugCount(mugs + 1)"><i class="fa fa-fw fa-shopping-cart"></i> Add to cart</a>-->
+                                <button @click="nameModal = '#cupsModal'" type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalLong"><i class="fas fa-scroll"></i> Submit Order</button>
+                            </div>
+                            <span class="corner-border-bottom"></span>
+                        </div>
+                    </div>
+                    <!-- ***************CUSTOM ITEMS******************************************* -->
                     <div class="col mb-3">
                         <!--mb-3: Fix for card height 100% issue with margin-->
                         <div class="card h-100 mb-0">
@@ -295,6 +350,7 @@
                             <span class="corner-border-bottom"></span>
                         </div>
                     </div>
+                <!-- ********************************************************** -->
                     <div style="padding-left: 2vh; padding-right: 2vh;">
                         <!-- <router-link style="text-decoration: none;" to="/cart">
                             <button class="btn btn-lg btn-block btn-success"><i class="fa fa-fw fa-coins"></i> Go to Checkout</button>
